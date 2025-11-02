@@ -313,7 +313,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](ssmodul4unguided1.png)
+> ![Screenshot bagian x](ssunguided1.modul4.png)
  
 Program ini merupakan implementasi struktur data antrian (queue) menggunakan singly linked list dalam bahasa C++. Setiap pembeli direpresentasikan sebagai node yang menyimpan nama dan menu pesanan, serta pointer yang menunjuk ke node berikutnya. Program ini memiliki empat fitur utama, yaitu menambah antrian baru, melayani pembeli terdepan, menampilkan seluruh antrian, dan keluar dari program. Proses penambahan dilakukan di bagian belakang antrian, sedangkan pelayanan menghapus data pembeli dari bagian depan. Dengan pendekatan linked list, ukuran antrian dapat berubah secara dinamis tanpa perlu menggeser data, sehingga efisien untuk mengelola data pembeli yang datang dan dilayani secara bergantian.
 
@@ -398,7 +398,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](ssmodul4unguided2.png)
+> ![Screenshot bagian x](ssunguided2.modul4.png)
 
 Program ini merupakan implementasi singly linked list dalam bahasa C++ yang berfungsi untuk menambahkan data, menampilkan isi list, dan membalik urutan elemen di dalamnya. Setiap elemen disimpan dalam node yang memiliki dua bagian, yaitu data dan pointer ke node berikutnya. Fungsi tambahNode() digunakan untuk menambah data baru di akhir list, tampilList() menampilkan seluruh isi list secara berurutan, dan balikkanList() membalik arah pointer antar node sehingga urutan list menjadi terbalik. Dengan memanfaatkan pointer secara dinamis, program ini mampu mengelola data secara efisien tanpa batasan ukuran array.
 
